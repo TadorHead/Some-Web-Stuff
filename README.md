@@ -1,8 +1,4 @@
-hello-world
+Basic Web Stuff
 ===========
 
-This is a test.
-I'm practicing. I don't really know how to work this.
-Now I'm testing something.
-How to find stuff out? 
-Yes! I've found it!
+This is a basic web page that will be used to test out stuff. Super cool web stuff......or just practice.
