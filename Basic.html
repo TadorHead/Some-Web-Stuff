@@ -19,7 +19,36 @@
 	</head>
 	<body>
 		<!-- Nav Bar -->
-		<nav></nav>
+		<nav class="top-bar">
+
+			<!-- Getting the responsive menu ready -->
+			<div class="top-bar-title">
+				<span data-responsive-toggle="mobile-menu" data-hide-for"medium">
+					<button class="menu-icon" type="button" data-toggle></button>
+				</span>
+				<!-- Name of Site -->
+				<strong>Basic Site</strong>
+			</div>
+
+			<div id="mobile-menu">
+				<div class="title-bar-right">
+					<ul class="dropdown menu" data-dropdown-menu>
+						<li><a href="#">Random Stuff</a></li>
+						<li><a href="#">Important Stuff</a></li>
+						<li>
+							<a href="#">Articles</a>
+							<ul class="menu vertical">
+								<li><a href="#">Awesome Artical</a></li>
+								<li><a href="#">Wonderful Stuff</a></li>
+								<li><a href="#">Read This</a></li>
+							</ul>
+						</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 		<!-- Hero/Jumbotron -->
 		<section></section>
