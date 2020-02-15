@@ -1,0 +1,26 @@
+{
+  "name": "some-web-stuff",
+  "version": "1.0.0",
+  "description": "A website made with node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TadorHead/Some-Web-Stuff.git"
+  },
+  "keywords": [
+    "web",
+    "material"
+  ],
+  "author": "TadorHead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TadorHead/Some-Web-Stuff/issues"
+  },
+  "homepage": "https://github.com/TadorHead/Some-Web-Stuff#readme",
+  "dependencies": {
+    "material-components-web": "^5.0.0"
+  }
+}
