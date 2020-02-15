@@ -4,6 +4,7 @@
   "description": "A website made with node.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,17 @@
   "homepage": "https://github.com/TadorHead/Some-Web-Stuff#readme",
   "dependencies": {
     "material-components-web": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "css-loader": "^3.4.2",
+    "extract-loader": "^4.0.3",
+    "file-loader": "^5.0.2",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
